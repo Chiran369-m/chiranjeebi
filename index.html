@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Chiranjeebi Oli - Computer Vision & AI Engineer Portfolio. Showcasing projects in Reinforcement Learning, Deep Learning, and Autonomous Systems.">
+    <meta name="keywords"
+        content="Chiranjeebi Oli, AI Engineer, Computer Vision, Machine Learning, Deep Learning, Python, YOLO, Unity 3D">
+    <meta name="author" content="Chiranjeebi Oli">
+
+    <!-- Open Graph / LinkedIn / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chiranjeebi Oli - AI Engineer">
+    <meta property="og:description" content="Computer Vision & AI Engineer Portfolio.">
+
+    <title>Chiranjeebi Oli - Computer Vision & AI Engineer</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome mostly for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Particles Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Chiranjeebi<span>.AI</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#timeline">Timeline</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <h1 class="glow-text">Computer Vision & <br>AI Engineer</h1>
+            <h2 class="subtitle">Building Intelligent Systems with Reinforcement Learning and Deep Learning</h2>
+            <div class="typing-container">
+                <span class="typing-prefix">I specialize in: </span>
+                <span class="typing-text" id="typewriter"></span><span class="cursor">_</span>
+            </div>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-title reveal">
+            <h2>About <span>Me</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-container reveal">
+            <div class="about-image-card">
+                <div class="image-placeholder glow-box">
+                    <img src="images/chiranjeebi.png" alt="Chiranjeebi Oli" class="profile-img">
+                </div>
+            </div>
+            <div class="about-text glass-panel">
+                <h3>Computer Engineering Student</h3>
+                <p>
+                    I'm a passionate Computer Engineering student currently studying at <strong>Khwopa College of
+                        Engineering,
+                        Bhaktapur</strong>.
+                    My academic journey has driven me to explore the wildest frontiers of technology, with a heavy focus
+                    on
+                    Artificial Intelligence, Autonomous Systems, and Computer Vision.
+                </p>
+                <p>
+                    I genuinely love taking on tricky problems and building systems that can actually perceive, learn,
+                    and make
+                    intelligent decisions on their own.
+                    Whether it's training an agent to navigate a complex environment or conceptualizing real-time object
+                    detection models,
+                    I'm dedicated to leveraging cutting-edge AI to build solutions that actually matter.
+                </p>
+
+                <div class="skill-bars">
+                    <div class="skill-bar-item">
+                        <div class="skill-info">
+                            <span>Problem Solving</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-line" data-progress="95%">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-info">
+                            <span>Algorithm Design</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-line" data-progress="90%">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-info">
+                            <span>System Architecture</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-line" data-progress="85%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-title reveal">
+            <h2>Technical <span>Skills</span></h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="skills-grid">
+            <!-- AI / ML -->
+            <div class="skill-category glass-panel reveal-stagger">
+                <div class="category-header">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>AI / Machine Learning</h3>
+                </div>
+                <ul class="skill-list">
+                    <li><i class="fa-solid fa-check"></i> Reinforcement Learning</li>
+                    <li><i class="fa-solid fa-check"></i> Computer Vision</li>
+                    <li><i class="fa-solid fa-check"></i> Deep Learning</li>
+                    <li><i class="fa-solid fa-check"></i> Neural Networks</li>
+                </ul>
+            </div>
+
+            <!-- Programming -->
+            <div class="skill-category glass-panel reveal-stagger">
+                <div class="category-header">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Programming</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">C/C++</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </div>
+
+            <!-- Libraries & Tools -->
+            <div class="skill-category glass-panel reveal-stagger">
+                <div class="category-header">
+                    <i class="fa-solid fa-toolbox"></i>
+                    <h3>Libraries & Tools</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag">OpenCV</span>
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">PyTorch</span>
+                    <span class="tag">Git</span>
+                    <span class="tag">Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-title reveal">
+            <h2>Featured <span>Projects</span></h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card glass-panel reveal">
+                <div class="project-img-placeholder">
+                    <img src="images/auto_sim.png" alt="Autonomous Vehicle Simulation" class="project-img">
+                    <div class="overlay"></div>
+                </div>
+                <div class="project-content">
+                    <h3>Autonomous Vehicle Simulation</h3>
+                    <p>I built a fully functional 3D autonomous vehicle simulation from scratch in Unity. By wiring up
+                        YOLO for real-time traffic detection and OpenCV for lane tracking, I taught an AI to navigate
+                        complex environments and communicate constantly with a backend Python node.</p>
+                    <div class="project-tags">
+                        <span>Unity 3D</span>
+                        <span>Python</span>
+                        <span>YOLO</span>
+                        <span>OpenCV</span>
+                    </div>
+                    <button class="btn btn-outline modal-btn" data-modal="modal-1">View Details</button>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-panel reveal">
+                <div class="project-img-placeholder">
+                    <img src="images/drowsy.png" alt="Driver Drowsiness Detection" class="project-img">
+                    <div class="overlay"></div>
+                </div>
+                <div class="project-content">
+                    <h3>Driver Drowsiness Detection</h3>
+                    <p>I designed a real-time computer vision system specifically to prevent accidents caused by driver
+                        fatigue. It actively monitors facial landmarks and eye closures using an optimized YOLO model,
+                        instantly triggering safety alerts the moment someone starts to doze off behind the wheel.</p>
+                    <div class="project-tags">
+                        <span>OpenCV</span>
+                        <span>YOLO</span>
+                        <span>Deep Learning</span>
+                        <span>Real-time</span>
+                    </div>
+                    <button class="btn btn-outline modal-btn" data-modal="modal-2">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <!-- Modal 1 -->
+    <div class="modal-overlay" id="modal-1">
+        <div class="modal-content glass-panel">
+            <button class="close-modal">&times;</button>
+            <div class="modal-body">
+                <h2>Autonomous Vehicle Simulation</h2>
+                <div class="modal-architecture">
+                    <!-- Simple SVG Architecture -->
+                    <svg viewBox="0 0 500 200" width="100%" height="auto" class="arch-svg">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#00f2fe;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#4facfe;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="10" y="70" width="120" height="60" rx="10" fill="url(#grad1)" opacity="0.8" />
+                        <text x="25" y="105" fill="#fff" font-family="Outfit" font-weight="bold">Unity 3D</text>
+
+                        <path d="M 130 80 L 240 80" stroke="#00f2fe" stroke-width="3" fill="none"
+                            marker-end="url(#arrow)" />
+                        <text x="145" y="70" fill="#a0a0a0" font-size="12">State & Reward</text>
+
+                        <rect x="240" y="70" width="130" height="60" rx="10" fill="url(#grad1)" opacity="0.8" />
+                        <text x="255" y="105" fill="#fff" font-family="Outfit" font-weight="bold">Python Node</text>
+
+                        <path d="M 305 130 L 305 170 L 70 170 L 70 130" stroke="#4facfe" stroke-width="3" fill="none"
+                            marker-end="url(#arrow)" />
+                        <text x="150" y="160" fill="#a0a0a0" font-size="12">Action Control</text>
+
+                        <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"
+                            markerUnits="strokeWidth">
+                            <path d="M0,0 L0,6 L9,3 z" fill="#00f2fe" />
+                        </marker>
+                    </svg>
+                </div>
+
+                <div class="modal-section">
+                    <h4><i class="fa-solid fa-list-check"></i> Features</h4>
+                    <ul>
+                        <li>Interactive 3D driving simulation built in Unity with traffic and NPCs</li>
+                        <li>Real-time object detection for traffic lights and pedestrians using YOLO</li>
+                        <li>Robust lane detection and tracking using OpenCV pipelines</li>
+                        <li>Low-latency Python socket connection for bidirectional communication</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h4><i class="fa-solid fa-triangle-exclamation"></i> Challenges Solved</h4>
+                    <p>Overcame latency issues between the Unity engine and Python script by optimizing the socket
+                        connection payload. Tuned the YOLO model to accurately detect small traffic light states from a
+                        distance while maintaining real-time FPS.</p>>
+                </div>
+                <div class="modal-section">
+                    <h4><i class="fa-solid fa-chart-line"></i> Results</h4>
+                    <p>Achieved seamless real-time autonomous navigation in complex 3D scenarios, successfully detecting
+                        lanes, obeying traffic signals, and avoiding NPCs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal-overlay" id="modal-2">
+        <div class="modal-content glass-panel">
+            <button class="close-modal">&times;</button>
+            <div class="modal-body">
+                <h2>Driver Drowsiness Detection using YOLO</h2>
+                <div class="modal-architecture">
+                    <!-- Simple SVG Architecture -->
+                    <svg viewBox="0 0 520 200" width="100%" height="auto" class="arch-svg">
+                        <defs>
+                            <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#b14bf4;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#4facfe;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="0" y="70" width="130" height="60" rx="10" fill="url(#grad2)" opacity="0.8" />
+                        <text x="15" y="105" fill="#fff" font-family="Outfit" font-weight="bold">Video Stream</text>
+
+                        <path d="M 130 100 L 180 100" stroke="#4facfe" stroke-width="3" fill="none"
+                            marker-end="url(#arrow2)" />
+
+                        <rect x="180" y="70" width="140" height="60" rx="10" fill="url(#grad2)" opacity="0.8" />
+                        <text x="200" y="105" fill="#fff" font-family="Outfit" font-weight="bold">YOLO Pipeline</text>
+
+                        <path d="M 320 100 L 370 100" stroke="#4facfe" stroke-width="3" fill="none"
+                            marker-end="url(#arrow2)" />
+
+                        <rect x="370" y="70" width="130" height="60" rx="10" fill="#e74c3c" opacity="0.9" />
+                        <text x="385" y="105" fill="#fff" font-family="Outfit" font-weight="bold">Alarm System</text>
+
+                        <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"
+                            markerUnits="strokeWidth">
+                            <path d="M0,0 L0,6 L9,3 z" fill="#4facfe" />
+                        </marker>
+                    </svg>
+                </div>
+
+                <div class="modal-section">
+                    <h4><i class="fa-solid fa-list-check"></i> Features</h4>
+                    <ul>
+                        <li>Real-time eye aspect ratio (EAR) calculation</li>
+                        <li>Facial landmark detection using OpenCV and optimized deep learning networks</li>
+                        <li>High performance on edge devices via optimized YOLO weights</li>
+                        <li>Configurable alarm threshold and audio trigger mechanisms</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h4><i class="fa-solid fa-triangle-exclamation"></i> Challenges Solved</h4>
+                    <p>Managing false positives in varying lighting conditions (e.g., night-time driving). Integrated a
+                        rolling average filter over sequential frames to ensure alerts are only triggered during
+                        prolonged eye closures.</p>
+                </div>
+                <div class="modal-section">
+                    <h4><i class="fa-solid fa-chart-line"></i> Results & Metrics</h4>
+                    <p>Maintained a steady 30 FPS inference rate on standard mobile and edge CPUs, achieving 98%
+                        detection accuracy evaluated on a heavily varied driver dataset.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GitHub Section -->
+    <section id="github" class="github">
+        <div class="github-container glass-panel reveal">
+            <i class="fa-brands fa-github github-icon"></i>
+            <h2>Open Source Contributions</h2>
+            <p>Explore my entire portfolio of experiments, utility scripts, and main projects on GitHub.</p>
+            <a href="https://github.com/Chiran369-m" target="_blank" class="btn btn-primary">Visit My GitHub</a>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+        <div class="section-title reveal">
+            <h2>Career <span>Journey</span></h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-panel">
+                    <h3>Started Computer Engineering</h3>
+                    <span class="date">2022</span>
+                    <p>Enrolled at Khwopa College of Engineering, Bhaktapur. Began foundational studies in programming,
+                        algorithms, and
+                        logical design.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-panel">
+                    <h3>Dived into Data Science & Machine Learning</h3>
+                    <span class="date">2023</span>
+                    <p>I started exploring the world of data science, mastering Python, Pandas, and Scikit-learn to
+                        build my first real regression and classification models.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-panel">
+                    <h3>Built an Autonomous Vehicle Simulation</h3>
+                    <span class="date">2024</span>
+                    <p>I tackled deep reinforcement learning head-on, successfully building and training an AI to
+                        navigate a robust 3D driving simulation entirely on its own.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-panel">
+                    <h3>Built Driver Drowsiness Detection system</h3>
+                    <span class="date">2025</span>
+                    <p>I took my computer vision skills to the next level by building an optimized YOLO pipeline
+                        designed specifically to meet strict, safety-critical real-time performance constraints.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-title reveal">
+            <h2>Get In <span>Touch</span></h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info reveal">
+                <div class="info-card glass-panel">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thecks2050@gmail.com" target="_blank"
+                        class="contact-link">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>thecks2050@gmail.com</p>
+                    </a>
+                </div>
+                <div class="info-card glass-panel">
+                    <a href="tel:+9779844287979" class="contact-link">
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>+977 9844287979</p>
+                    </a>
+                </div>
+                <div class="info-card glass-panel">
+                    <a href="https://www.linkedin.com/in/chiranjeevi-oli-86b437257/" target="_blank"
+                        class="contact-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h4>LinkedIn</h4>
+                        <p>linkedin.com/in/chiranjeevi-oli</p>
+                    </a>
+                </div>
+                <div class="info-card glass-panel">
+                    <a href="https://github.com/Chiran369-m" target="_blank" class="contact-link">
+                        <i class="fa-brands fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p>github.com/Chiran369-m</p>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form-container glass-panel reveal">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    <!-- Replace with your Access Key from Web3Forms -->
+                    <input type="hidden" name="access_key" value="f1501115-409b-4cfc-bf71-b7db0e59e0d0">
+
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                            class="fa-solid fa-paper-plane"></i></button>
+                    <p class="form-result" style="display: none; text-align: center; margin-top: 15px; color: #fff;">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Chiranjeebi<span>.AI</span></div>
+            <div class="social-links">
+                <a href="https://github.com/Chiran369-m" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/chiranjeevi-oli-86b437257/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2026 Chiranjeebi Oli. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
